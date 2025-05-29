@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Media / uploaded files
+media/
+temp/
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Compiled files
+*.so
+
+# Environment variables
+.env
+
+# Node/npm (if used)
+node_modules/
+
+# Byte-compiled / cache
+__pycache__/
+
+# Test output
+htmlcov/
+coverage.xml
+.pytest_cache/
